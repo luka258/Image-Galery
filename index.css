@@ -232,40 +232,17 @@ nav ul li a.active{
   
 
 
+ 
+
+
+
+
+
+
+
+
+
   @media only screen and (max-width: 1200px) {
-    body{
-
-    }
-    .title{
-        position:absolute;
-        top:50%;
-        left:50%;
-        transform :translate(-50%,-50%);
-        font-size:7.625em;
-        -webkit-text-stroke:0.05em transparent ;
-        color:black;
-        background-image: linear-gradient(rgba(163, 151, 151, 0.6),rgba(0, 0, 0, 0.6));
-        background-repeat: no-repeat;
-        -webkit-background-clip:text;
-        background-position:-4.40em 0;
-        animation:backcolor 5s linear infinite;
-    }
-    @keyframes backcolor{
-        100%{
-            background-position:0 0;
-        }
-    }
-}
-
-
-
-
-
-
-
-
-
-  @media only screen and (max-width: 768px) {
    
     .title{
         font-size:5.8625em;     
