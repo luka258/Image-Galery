@@ -204,3 +204,150 @@ nav ul li a.active{
     text-align: left;
     color: white;
   }
+
+
+
+  @media only screen and (max-width: 1200px) {
+   
+    .title{
+        font-size:12.8625em;     
+    }
+    
+
+
+
+
+.img-gallery{
+    width:80%;
+    
+     
+    margin:130em auto 50%; 
+    gap: 2.3em;
+    margin-left: 7em;
+    margin-bottom: 6em; 
+ }
+
+
+    .active{
+        display: none;
+    }
+    .active2{
+        display:none;
+        
+    }
+    .active3{
+        display:none;
+        
+    }
+    .active4{
+        display:none;
+        
+    }
+
+nav ul li{
+    margin: 1.0em 0.005em;
+    font-size: 3em;
+}
+
+.pppp{
+width:70.625em;
+max-width: 70%;
+margin: 0 auto;
+display:flex;
+align-items: left;
+justify-content:space-around;
+margin-top: 8em;
+   
+}
+.title2{
+    display: block;
+    padding-top:0.6em;
+    padding-bottom:0.10em;
+    border-bottom: 0.07em solid rgb(0, 0, 0);
+    text-align: center;
+    font-size: 3.125em;
+}
+
+
+.slikaa{
+  float:left;
+  width:12.5em;
+  height:8.5em;
+  padding: 0 10px 0 0 ;
+}
+
+.text{
+    margin-left:1em;
+    margin-top: 0em;
+    text-align: left;
+    margin-bottom: 10em;
+}
+
+
+
+.hero2{
+    margin-top: 7em;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+form{
+    width:100%;
+    max-width: 18.75em;
+}
+.input-group{
+    margin-bottom: 1.875em;
+    position: relative;
+
+}
+input, textarea{
+    width:22em ;
+    padding:0.625em ;
+    outline: 0;
+    border: 0.134em solid rgb(0, 0, 0);
+    background: transparent;
+    font-size: 0.9375em;
+}
+label{
+    height:100%;
+    position:absolute;
+    left:0;
+    top:0;
+    padding:0.625em;
+    color:rgb(63, 63, 63);
+    cursor:text;
+    transition: 0.2s;
+}
+button{
+    color:black;
+    padding:0.625em 0;
+    outline:none;
+    background:transparent;
+    border: 0.154em solid rgb(0, 0, 0);
+    width: 24.8em;
+    cursor: pointer;
+    margin-bottom: 4em;
+
+}
+button:hover{
+    border: 0.154em solid rgb(63, 63, 63);
+    color:rgb(63, 63, 63);
+}
+input:focus~label,input:valid~label,textarea:focus~label,textarea:valid~label{
+    top:-2.1875em;
+    font-size: 0.875em;
+    color:rgb(0, 0, 0);
+}
+.title3{
+    display: block;
+    padding-top:0.6em;
+    padding-bottom:0.10em;
+    border-bottom: 0.07em solid rgb(0, 0, 0);
+    text-align: center;
+    font-size: 3.125em;
+}
+
+
+
+}
