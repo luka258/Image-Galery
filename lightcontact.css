@@ -1,0 +1,159 @@
+
+*{
+    margin:0;
+    padding:0;
+    font-family: 'popins',sans-serif;
+    box-sizing: border-box;
+}
+body{
+    background-image: url("images/Subtle-Light-Tile-Pattern-Vol2.jpg");
+  
+    
+    min-height: 31.25em;  
+  
+   
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    
+}
+
+.hero{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+nav {
+    position:absolute;
+    top:0;
+    left:0;
+    width:100%;
+    padding: 0.9375em 3%;
+    display:flex;
+    align-items:center;
+    justify-content: space-between;
+    overflow:hidden;
+}
+nav ul li{
+display:inline-block;
+list-style:none;
+margin: 1.5625em 1.25em;
+}
+nav ul li a{
+    text-decoration: none;
+    color:rgb(0, 0, 0);
+    float:left;
+    display:block;
+    text-align: center;
+    text-decoration: none;
+    border-bottom: 0.1875em solid transparent;
+
+}
+nav ul li a:hover{
+    color:rgb(117, 117, 117); 
+    border-bottom: 0.1875em solid red;
+}
+nav ul li a.active3{
+    border-bottom: 0.1875em solid rgb(0, 0, 0);
+}
+.title{
+    font-size: 50px;
+    padding-top:30px;
+    padding-bottom:5px;
+    border-bottom: 0.07em solid rgb(0, 0, 0);
+    text-align: center;
+    color:rgb(194, 194, 194);
+    
+}
+
+
+nav ul li a.active5{
+    text-align: left;
+    
+}
+
+
+
+
+footer {
+    
+    padding-top: 1.25em;
+    padding-bottom: 5em;
+    background-color:rgb(43, 43, 43);
+    color: rgb(80, 80, 80);
+  }
+
+  footer{
+    text-align:center;
+  }
+
+  h1{
+    margin-bottom:0 ;
+    text-align: center;
+    
+  }
+  .contact{
+    font-size: 0.5em;
+    text-align: left;
+    color: white;
+  }
+
+
+
+.hero2{
+    margin-top: 9.375em;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+form{
+    width:90%;
+    max-width: 18.75em;
+}
+.input-group{
+    margin-bottom: 1.875em;
+    position: relative;
+
+}
+input, textarea{
+    width:18.75em ;
+    padding:0.625em ;
+    outline: 0;
+    border: 0.134em solid rgb(0, 0, 0);
+    background: transparent;
+    font-size: 0.9375em;
+}
+label{
+    height:100%;
+    position:absolute;
+    left:0;
+    top:0;
+    padding:0.625em;
+    color:rgb(97, 97, 97);
+    cursor:text;
+    transition: 0.2s;
+}
+button{
+    color:black;
+    padding:0.625em 0;
+    outline:none;
+    background:transparent;
+    border: 0.154em solid rgb(0, 0, 0);
+    width: 94%;
+    cursor: pointer;
+
+}
+button:hover{
+    border: 0.154em solid rgb(63, 63, 63);
+    color:rgb(63, 63, 63);
+}
+input:focus~label,input:valid~label,textarea:focus~label,textarea:valid~label{
+    top:-2.1875em;
+    font-size: 0.875em;
+    color:black;
+}
+
+

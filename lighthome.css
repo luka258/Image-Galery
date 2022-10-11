@@ -1,0 +1,206 @@
+*{
+    margin:0;
+    padding:0;
+    font-family: 'popins',sans-serif;
+    box-sizing: border-box;
+}
+body{
+    background-image: linear-gradient(rgba(255, 255, 255, 0.6),rgba(255, 255, 255, 0.6)),url(images/Subtle-Light-Tile-Pattern-Vol2.jpg);
+  
+    
+    min-height: 31.25em; 
+  
+   
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    
+}
+
+nav {
+    position:absolute;
+    top:0;
+    left:0;
+    width:100%;
+    padding: 0.9375em 3%;
+    display:flex;
+    align-items:center;
+    justify-content: space-between;
+    overflow:hidden;
+    }
+
+nav ul li{
+    display:inline-block;
+    list-style:none;
+    margin: 1.5625em 1.25em;
+}
+nav ul li a{
+    text-decoration: none;
+    color:rgb(0, 0, 0);
+    float:left;
+    display:block;
+    text-align: center;
+    text-decoration: none;
+    border-bottom: 0.1875em solid transparent;
+
+}
+nav ul li a:hover{
+    color:rgb(117, 117, 117);  
+    border-bottom: 0.1875em solid red;
+}
+nav ul li a.active{
+    border-bottom: 0.1875em solid rgb(0, 0, 0);
+    
+}
+
+
+
+.title{
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform :translate(-50%,-50%);
+    font-size:15.625em;
+    -webkit-text-stroke:0.05em transparent ;
+    color:rgb(194, 194, 194);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6),rgba(138, 138, 138, 0.6));
+    background-repeat: no-repeat;
+    -webkit-background-clip:text;
+    background-position:-4.40em 0;
+    animation:backcolor 5s linear infinite;
+}
+@keyframes backcolor{
+    100%{
+        background-position:0 0;
+    }
+}
+
+
+
+
+
+.img-gallery{
+    width:50%;
+    margin:6.25em auto 50%;
+    display:flex;
+    flex-wrap: wrap;
+    gap: 2.5em;
+    margin-top: 62.5em;
+    margin-bottom: 9.375em;
+    
+    
+    
+       
+ }
+ .img-gallery img{
+     width:30%;
+     cursor:pointer;
+     border-radius: 0.4375em;
+     transition-duration:1s ;
+ 
+     
+ }
+ 
+ .slika1:hover{
+    
+     rotate: -17deg;
+     border-radius: 1.25em;
+     box-shadow: 0 2em 4.6875em rgba(68,77,136,0.2);
+ }
+ .slika2:hover{
+     rotate: -17deg;
+     border-radius: 1.25em;
+     box-shadow: 0 2em 4.6875em rgba(68,77,136,0.2);
+ }
+ .slika3:hover{
+     rotate: -17deg;
+     border-radius: 1.25em;
+     box-shadow: 0 2em 4.6875em rgba(68,77,136,0.2);
+ }
+ .slika4:hover{
+     rotate: -17deg;
+     border-radius: 1.25em;
+     box-shadow: 0 2em 4.6875em rgba(68,77,136,0.2);
+ }
+ .slika5:hover{
+     rotate: -17deg;
+     border-radius: 1.25em;
+     box-shadow: 0 2em 4.6875em rgba(68,77,136,0.2);
+ }
+ .slika6:hover{
+     rotate: -17deg;
+     border-radius: 1.25em;
+     box-shadow: 0 2em 4.6875em rgba(68,77,136,0.2);
+ }
+ .slika7:hover{
+     rotate: -17deg;
+     border-radius: 1.25em;
+     box-shadow: 0 2em 4.6875em rgba(68,77,136,0.2);
+ }
+ .slika8:hover{
+     rotate: -17deg;
+     border-radius: 1.25em;
+     box-shadow: 0 2em 4.6875em rgba(68,77,136,0.2);
+ }
+ .slika9:hover{
+     rotate: -17deg;
+     border-radius: 1.25em;
+     box-shadow: 0 2em 4.6875em rgba(68,77,136,0.2);
+ }
+ .slika10:hover{
+     rotate: -17deg;
+     border-radius: 1.25em;
+     box-shadow: 0 2em 4.6875em rgba(68,77,136,0.2);
+ }
+ .slika11:hover{
+     rotate: -17deg;
+     border-radius: 1.25em;
+     box-shadow: 0 2em 4.6875em rgba(68,77,136,0.2);
+ }
+ .slika12:hover{
+     rotate: -17deg;
+     border-radius: 1.25em;
+     box-shadow: 0 2em 4.6875em rgba(68,77,136,0.2);
+ }
+ .slika13:hover{
+     rotate: -17deg;
+     border-radius: 1.25em;
+     box-shadow: 0 2em 4.6875em rgba(68,77,136,0.2);
+ }
+ .slika14:hover{
+     rotate: -17deg;
+     border-radius: 1.25em;
+     box-shadow: 0 2em 4.6875em rgba(68,77,136,0.2);
+ }
+ .slika15:hover{
+     rotate: -17deg;
+     border-radius: 1.25em;
+     box-shadow: 0 2em 4.6875em rgba(68,77,136,0.2);
+ }
+
+
+
+ footer {
+    
+    padding-top: 1.25em;
+    padding-bottom: 5em;
+    background-color:rgb(43, 43, 43);
+    color: rgb(80, 80, 80);
+  }
+
+  footer{
+    text-align:center;
+  }
+
+  h1{
+    margin-bottom:0 ;
+    text-align: center;
+    
+  }
+  .contact{
+    font-size: 0.5em;
+    text-align: left;
+    color: white;
+  }
