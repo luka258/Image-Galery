@@ -180,6 +180,32 @@ nav ul li a.active{
      box-shadow: 0 2em 4.6875em rgba(68,77,136,0.2);
  }
 
+ .full-img{
+    width:100%;
+    height:100vh;
+    background:rgba(0, 0, 0, 0.9);
+    position:fixed;
+    top:0;
+    left:0;
+    display:none;
+    align-items:center;
+    justify-content:center;
+    z-index:100;
+ }
+ .full-img img{
+    width:90%;
+    max-width:31.25em;
+ }
+ .full-img span{
+    position:absolute;
+    top:5%;
+    right:5%;
+    font-size:2.188em;
+    color:white;
+    cursor:pointer;
+ }
+
+ 
 
 
  footer {
