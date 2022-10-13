@@ -212,6 +212,9 @@ nav ul li a.active{
     color:white;
     cursor:pointer;
  }
+ .full-img span:hover{
+    color:gray;
+ }
 
 
 
@@ -413,8 +416,9 @@ input:focus~label,input:valid~label,textarea:focus~label,textarea:valid~label{
     text-align: center;
     font-size: 3.125em;
 }
-
-
+.full-img span{
+    font-size:3.5em;
+ }
 
 }
 
