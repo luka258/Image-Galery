@@ -1,0 +1,36 @@
+body {
+    background:red;
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+    height:100%;
+    }
+.vse{
+    width: 800px;
+    margin: 30px auto;
+    color:$white;
+    text-align:center;
+}
+h1{
+    font-size: 9em;
+}
+#seconds, #tens{
+    color:white;
+  }
+  p{
+    font-size: 5em;
+  }
+  button{
+    @include corners (5px);
+    font-size:6em ;
+    background-color:red;
+    color:black;
+    padding: 0.2em;
+    margin:0.02em;
+    border-radius: 2em;
+    border:solid 0.02em white;
+  }
+  button:hover{
+        @include transition;
+        background:white;
+        border: solid 0.02em white;
+        color:base-color;
+  }
