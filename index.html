@@ -6,6 +6,7 @@
         <link rel="icon" href="images/images-solid.svg" type="image/gif/png">
         <link rel="stylesheet" href="index.css">
         <script src="https://kit.fontawesome.com/141322c150.js" crossorigin="anonymous"></script>
+        
 
 </head>
 <body>
@@ -26,10 +27,13 @@
     <div class="full-img" id="fullImgBox">
         <img src="images/slika1.jpg" id="fullImg">
         <span onclick="closeFullImg()">X</span>
+        <a href="images/slika1.jpg" id="demo"  download class="download-btn">Download</a>
+        
         
     </div>
+    
 
-    <div class="img-gallery">
+    <div class="img-gallery" >
         <img class="slika1" src="images/slika1.jpg" onclick="openFullImg(this.src)">
         <img class="slika2" src="images/slika2.jpg"onclick="openFullImg(this.src)">
         <img class="slika3" src="images/slika3.jpg"onclick="openFullImg(this.src)">
@@ -50,9 +54,28 @@
     <script>
         var fullImgBox=document.getElementById("fullImgBox");
         var fullImg=document.getElementById("fullImg");
+        
+        let text = "http://127.0.0.1:5503/Image-Galery/images/slika1.jpg";
+        var tab = new Array (5)
+        tab=text.split("/");
+        console.table(tab);
+        console.log(tab[tab.length-2]+"/"+tab[tab.length-1]);
+        var demo=document.getElementById("demo");
+        
+
+        
     function openFullImg(pic){
+        let text = pic;
+        var tab = new Array (5)
+        tab=text.split("/");
+        console.table(tab);
+        console.log(tab[tab.length-2]+"/"+tab[tab.length-1]);
         fullImgBox.style.display="flex";
         fullImg.src=pic;
+        demo.href=pic;
+        
+        
+        
     }
         function closeFullImg(){
         fullImgBox.style.display="none";

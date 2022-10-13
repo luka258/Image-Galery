@@ -215,7 +215,18 @@ nav ul li a.active{
  .full-img span:hover{
     color:gray;
  }
+ .download-btn{
+    margin-top: 38em;
+    position: fixed;
+    background-color:black;
+    color:white;
+    padding: 1rem 2rem;
+    border-radius: 1em;
 
+}
+.download-btn:hover{
+    background-color: gray;
+}
 
 
 
